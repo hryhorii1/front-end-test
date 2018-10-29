@@ -80,13 +80,24 @@
     height: 0.2rem;
     background: #000000;
     margin: 0.25rem;
-    margin-left: auto;
+    margin-left: ;
 }
 
 .burger-button__icon:first-child {
-    margin-top: 0;
+    margin-top: 5px;
 }
-
+.burger-button {
+    display: inline-block;
+    float: right;
+}
+.page-nav__buttons {
+    display: inline-block;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
 @media (min-width: 1366px) {
     .burger-button__icon {
         display: none;
