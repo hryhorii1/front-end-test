@@ -1,6 +1,7 @@
 .wrapper {
     background: #FFFFFF;
     width: 100%;
+    position: relative;
 }
 
 .page-nav__logo {
@@ -86,18 +87,22 @@
 .burger-button__icon:first-child {
     margin-top: 5px;
 }
+
 .burger-button {
     display: inline-block;
     float: right;
 }
+
 .page-nav__buttons {
     display: inline-block;
 }
+
 .clearfix::after {
     display: table;
     content: "";
     clear: both;
 }
+
 @media (min-width: 1366px) {
     .burger-button__icon {
         display: none;
