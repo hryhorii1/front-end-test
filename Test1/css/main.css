@@ -46,6 +46,96 @@ img {
     margin-bottom: 3.75rem;
 }
 
+.hor-line {
+    height: 1px;
+    width: 100%;
+    background-color: #cbcbc3;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hor-line {
+    -webkit-animation: fade-in 1s linear;
+    /* Safari 4+ */
+    -moz-animation: fade-in 1s linear;
+    /* Fx 5+ */
+    -o-animation: fade-in 1s linear;
+    /* Opera 12+ */
+    animation: fade-in 1s linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.hor-line:nth-of-type(2) {
+    -webkit-animation: fade-in 2.5s linear;
+    /* Safari 4+ */
+    -moz-animation: fade-in 2.5s linear;
+    /* Fx 5+ */
+    -o-animation: fade-in 2.5s linear;
+    /* Opera 12+ */
+    animation: fade-in 2.5s linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.hor-line:nth-of-type(3) {
+    -webkit-animation: fade-in 4s linear;
+    /* Safari 4+ */
+    -moz-animation: fade-in 4s linear;
+    /* Fx 5+ */
+    -o-animation: fade-in 4s linear;
+    /* Opera 12+ */
+    animation: fade-in 4s linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.hor-line:nth-of-type(4) {
+    -webkit-animation: fade-in 5s linear;
+    /* Safari 4+ */
+    -moz-animation: fade-in 5s linear;
+    /* Fx 5+ */
+    -o-animation: fade-in 5s linear;
+    /* Opera 12+ */
+    animation: fade-in 5s linear;
+    /* IE 10+, Fx 29+ */
+}
+
 @media (min-width: 1366px) {
     .section-title {
         font-size: 3.8125rem;
