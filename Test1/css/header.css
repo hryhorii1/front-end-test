@@ -35,7 +35,7 @@
     width: 94%;
     position: absolute;
     top: -50rem;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .page-nav__link {
@@ -144,8 +144,5 @@
     .page-nav__link:hover {
         color: #ee5575;
         border-bottom: 0.1875rem solid #ed4d78;
-    }
-    .page-nav__logo {
-        margin-bottom: 0;
     }
 }

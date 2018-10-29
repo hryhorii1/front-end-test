@@ -93,13 +93,13 @@ img {
 }
 
 .hor-line {
-    -webkit-animation: fade-in 1s linear;
+    -webkit-animation: fade-in 2s linear;
     /* Safari 4+ */
-    -moz-animation: fade-in 1s linear;
+    -moz-animation: fade-in 2s linear;
     /* Fx 5+ */
-    -o-animation: fade-in 1s linear;
+    -o-animation: fade-in 2s linear;
     /* Opera 12+ */
-    animation: fade-in 1s linear;
+    animation: fade-in 2s linear;
     /* IE 10+, Fx 29+ */
 }
 
