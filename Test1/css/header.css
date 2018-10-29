@@ -145,4 +145,7 @@
         color: #ee5575;
         border-bottom: 0.1875rem solid #ed4d78;
     }
+    .page-nav__logo {
+        margin-bottom: 0;
+    }
 }
