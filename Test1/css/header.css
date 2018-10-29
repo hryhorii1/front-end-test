@@ -1,0 +1,137 @@
+.wrapper {
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.page-nav__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.375rem;
+}
+
+.logo-img {
+    -ms-flex-preferred-size: 2%;
+    flex-basis: 2%;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.logo-title {
+    font-family: 'Clear Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.page-nav__item {
+    display: flex;
+    flex-direction: column;
+    background: #ed4d78;
+    width: 94%;
+    position: absolute;
+    top: -50rem;
+    transition: 0.5s;
+}
+
+.page-nav__link {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: 'Clear Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+}
+
+.page-nav__btn {
+    text-transform: capitalize;
+    color: #000000;
+    font-family: 'Clear Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: center;
+    height: 1.9375rem;
+    background-color: #FFFFFF;
+    border: 0.2px solid #333333;
+}
+
+.btn-icon {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.black {
+    display: none;
+    background-color: #2f3a3d;
+    color: #FFFFFF;
+    border: none;
+}
+
+.burger-button__icon {
+    display: block;
+    width: 1.375rem;
+    height: 0.2rem;
+    background: #000000;
+    margin: 0.25rem;
+    margin-left: auto;
+}
+
+.burger-button__icon:first-child {
+    margin-top: 0;
+}
+
+@media (min-width: 1366px) {
+    .burger-button__icon {
+        display: none;
+    }
+
+    .black {
+        display: block;
+    }
+
+    .page-nav__link {
+        display: block;
+        color: #000000;
+    }
+
+    .page-nav__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 45%;
+        justify-content: space-evenly;
+        line-height: 2.875rem;
+        background: transparent;
+        position: relative;
+        top: 0;
+    }
+
+    .page-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-nav__buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-basis: 35%;
+        justify-content: space-between;
+        padding-top: 0.625rem;
+    }
+
+    .page-nav__link:hover {
+        color: #ee5575;
+        border-bottom: 0.1875rem solid #ed4d78;
+    }
+}
